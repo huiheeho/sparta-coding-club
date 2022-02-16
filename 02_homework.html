@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+    <link href="https://fonts.googleapis.com/css?family=Jua:400" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Jua', sans-serif;
+        }
+
+        .img_humidifier {
+            display: block;
+            margin: 0 auto;
+            width: 500px;
+
+        }
+
+        .item {
+            text-align: center;
+        }
+
+        .price {
+            font-size: 20px;
+        }
+
+        .input-group {
+            width: 500px;
+            height: 40px;
+            margin: auto;
+        }
+
+        .btn-primary {
+            display: block;
+            margin: 30px auto auto auto;
+            font-family: 'Jua', sans-serif;
+        }
+
+        .explain {
+            font-family: 'Jua', sans-serif;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <IMG class="img_humidifier"
+         src="https://dsfjpb8zhc170.cloudfront.net/store/thumbnails/b1ed2322490974bdeb73aa0d3331f4b8.jpg">
+    <div class="item">
+        <h2>겨울 필수템! 가습기 <span class="price">가격 : 33,900원/개
+                <button type="button"
+                        onclick="location.href='https://store.oa-world.com/product/643?utm_source=youtube&utm_medium=extendad_toothbrush_storemaore&utm_campaign=DC&utm_content=cpc&gclid=Cj0KCQiA3rKQBhCNARIsACUEW_bGNLxjjiWJrh3MMl53tH2_tjcaEQUYwMxb_bHE15TEWR6Nw53ecjcaAjNhEALw_wcB' "
+                        class="btn btn-link">더보기</button></span></h2>
+        <pre class="explain">코로나로 인해 호흡기 질환 예방을 위한 겨울철 보습이 더욱 중요시 되는 시기!
+            &check; 작지만 강력한 가습량으로 물 분자를 분사
+            &check; 가습기와 무드등으로 활용할 수 있는 제품
+            &check; 감각적인 디자인으로 인테리어 소품으로도 유용 </pre>
+    </div>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="">주문자 성함</span>
+        </div>
+        <input type="text" class="form-control">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">수량</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+            <option selected>&nabla;</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+    </div>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="">주소</span>
+        </div>
+        <input type="text" class="form-control">
+    </div>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="">전화번호</span>
+        </div>
+        <input type="text" class="form-control">
+    </div>
+    <button type="button" class="btn btn-primary">주문하기</button>
+</body>
+
+</html>
